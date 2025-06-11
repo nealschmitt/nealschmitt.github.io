@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Getting started</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Movie Exploration</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <!-- Link to your CSS file -->
 </head>
 <body>
-    <h1> Kenneth Mackenzie </h1>
-    <p>Kenneth Ivo Brownley Langwell Mackenzie (25 September 1913 – 19 January 1955) was an Australian poet and novelist. His first and best-known novel, <a href="https://en.wikipedia.org/wiki/The_Young_Desire_It"> The Young Desire It (1937)</a>, was published under the pen name <a href="https://www.seaforthmackenzie.com/" target="_blank"></a>Seaforth Mackenzie.[1] </p>
+    <header>
+        <h1>Exploring the World of Movies</h1>
+        <nav>
+            <ul>
+                <li><a href="#block-inline">Block vs. Inline</a></li>
+                <li><a href="#semantic-tags">Semantic Tags</a></li>
+                <li><a href="#nav-header-footer">Nav/Header/Footer</a></li>
+                <li><a href="#description-lists">Description Lists</a></li>
+                <li><a href="#additional-tags">Additional Tags</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="block-inline">
+            <h2>Block-Level vs. Inline Elements</h2>
+            <p>Block-level elements start on a new line and take up the full width available.</p>
+            <p>Examples of block-level elements: <code>&lt;p&gt;</code>, <code>&lt;h1&gt;-&lt;h6&gt;</code>, <code>&lt;div&gt;</code>.</p>
+            <p>Inline elements do not start on a new line and only take up as much width as necessary.</p>
+            <p>Examples of inline elements: <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>, <code>&lt;img&gt;</code>.</p>
+            <p>For instance, here is an inline element: <span>Movie Title: Inception</span>.</p>
+        </section>
+
+        <section id="semantic-tags">
+            <h2>Semantic Tags</h2>
+            <article>
+                <h3>Movie Genres</h3>
+                <section>
+                    <h4>Science Fiction</h4>
+                    <p>Science fiction films often explore futuristic themes and advanced technology.</p>
+                </section>
+                <section>
+                    <h4>Drama</h4>
+                    <p>Drama films focus on character development and an emotional narrative.</p>
+                </section>
+                <section>
+                    <h4>Comedy</h4>
+                    <p>Comedy films aim to provoke laughter and entertain the audience.</p>
+                </section>
+                <strong>Important note about the genres above!</strong>
+            </article>
+        </section>
+
+        <section id="nav-header-footer">
+            <h2>Nav, Header, and Footer</h2>
+            <p>The <code>&lt;header&gt;</code> tag contains introductory material at the top of the page.</p>
+            <footer>
+                <p><small>Copyright &copy; 2024 Movie Exploration Inc.</small></p>
+            </footer>
+            <p>The <code>&lt;footer&gt;</code> tag includes contact information or copyright details.</p>
+            <nav>
+                <ul>
+                    <li><a href="#action-movies">Action Movies</a></li>
+                    <li><a href="#comedy-movies">Comedy Movies</a></li>
+                    <li><a href="#drama-movies">Drama Movies</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="description-lists">
+            <h2>Description Lists</h2>
+            <dl>
+                <dt>Inception</dt>
+                <dd>A science fiction film that explores the concept of shared dreams.</dd>
+                <dt>The Godfather</dt>
+                <dd>A crime drama that focuses on the powerful Italian-American crime family.</dd>
+            </dl>
+        </section>
+
+        <section id="additional-tags">
+            <h2>Additional New Tags</h2>
+            <p>Using the <code>&amp;</code> symbol in a title: <cite>The Shawshank Redemption &amp; The Green Mile</cite>.</p>
+            <p>Here is a citation for the film: <cite>Director: Frank Darabont</cite>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Movie Exploration Inc.</p>
+    </footer>
 </body>
 </html>
